@@ -1,0 +1,88 @@
+/* Slick-slider */
+.slick-slider {
+  position: relative;
+}
+
+.slick-slider .slick-list {
+  overflow: hidden;
+}
+
+.slick-slider .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 0;
+  align-items: flex-start;
+}
+
+.slick-slider .slick-dots {
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.slick-slider .slick-dots li {
+  margin: 0 5px;
+}
+
+.slick-slider .slick-dots li button {
+  font-size: 0;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border: 1px solid #c8c8c8;
+  background-color: transparent;
+}
+
+.slick-slider .slick-dots li.slick-active button {
+  background-color: #a9afb3;
+}
+
+/* INPUT PLACEHOLDER */
+input::-webkit-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+
+input::-moz-placeholder {
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+
+input:-moz-placeholder {
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+
+input:-ms-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+input:focus::-moz-placeholder {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+input:focus:-moz-placeholder {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+input:focus:-ms-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
